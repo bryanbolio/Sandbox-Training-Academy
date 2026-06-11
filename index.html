@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>DoorLoop Training Hub</title>
+<script>if(location.hostname==='training.doorloop.com')location.replace('https://app.doorloop.com/training-hub'+location.search+location.hash);</script>
+<script>if(location.protocol==='http:')location.replace('https://'+location.host+location.pathname+location.search+location.hash);</script>
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init ns hs wi ls ds rs os capture calculateEventProperties fs register register_once register_for_session unregister unregister_for_session bs getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty gs cs createPersonProfile setInternalOrTestUser ts ys opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing vs debug M ps getPageViewId captureTraceFeedback captureTraceMetric Xr".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_HUjc1K4MXKGgoZ3Vr0CKpDFq61qk5O0zTdKM7fmEWoe', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2026-01-30',
+        person_profiles: 'identified_only',
+    })
+</script>
+<link rel="stylesheet" href="hub/hub.css">
+<link rel="stylesheet" href="widget/widget.css">
+<script src="data/training-data.js"></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+</head>
+<body>
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <a href="https://app.doorloop.com" class="back-to-app">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    Back to App
+  </a>
+  <div class="hero-inner">
+    <img src="https://cdn.prod.website-files.com/5f073e32d304276cc8b4ff30/5fbc3a266ed16bbee798dddd_White%20Logo%20-%20Left%20Emblem.svg" alt="DoorLoop" class="hero-logo">
+    <div class="hero-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+      Training Academy
+    </div>
+    <h1>Welcome to DoorLoop Training</h1>
+    <p>Master every feature at your own pace. Watch the videos, track your progress, and become a DoorLoop power user.</p>
+  </div>
+</section>
+
+<!-- ========== OVERALL PROGRESS ========== -->
+<div class="progress-banner">
+  <div class="progress-card">
+    <div class="progress-ring-wrap">
+      <svg width="72" height="72" viewBox="0 0 72 72">
+        <circle class="progress-ring-bg" cx="36" cy="36" r="30"/>
+        <circle class="progress-ring-fill" id="overallRing" cx="36" cy="36" r="30"
+          stroke-dasharray="188.5" stroke-dashoffset="188.5"/>
+      </svg>
+      <div class="progress-ring-text" id="overallPct">0%</div>
+    </div>
+    <div class="progress-info">
+      <h3>Your Learning Progress</h3>
+      <p id="overallLabel">0 of 0 videos completed</p>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="overallBar"></div>
+      </div>
+    </div>
+    <div class="progress-stats">
+      <span class="stat-number" id="overallCount">0</span>
+      <span class="stat-label">Completed</span>
+    </div>
+  </div>
+</div>
+
+<!-- ========== QUICK ACTIONS ========== -->
+<div class="quick-actions">
+  <div class="qa-grid">
+    <a class="qa-card" href="#" onclick="event.preventDefault(); if(window._dlhwOpenIntercom){window._dlhwOpenIntercom()}else if(window.Intercom){Intercom('showNewMessage')}else{window.open('https://support.doorloop.com','_blank')}">
+      <div class="qa-icon" style="background:#ede9fe;color:#7c3aed">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      </div>
+      <div class="qa-text">
+        <div class="qa-title">Chat with Us</div>
+        <div class="qa-desc">Talk to our support team</div>
+      </div>
+    </a>
+    <a class="qa-card" href="https://support.doorloop.com" target="_blank" rel="noopener">
+      <div class="qa-icon" style="background:#e8f0fe;color:#1665d8">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+      </div>
+      <div class="qa-text">
+        <div class="qa-title">Help Center</div>
+        <div class="qa-desc">Browse articles &amp; guides</div>
+      </div>
+    </a>
+    <a class="qa-card" href="https://app.doorloop.com" rel="noopener">
+      <div class="qa-icon" style="background:#d1fae5;color:#10b981">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </div>
+      <div class="qa-text">
+        <div class="qa-title">Back to App</div>
+        <div class="qa-desc">Return to DoorLoop</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- ========== MODULES ========== -->
+<div class="modules-container" id="modulesContainer"></div>
+
+<!-- ========== VIDEO MODAL ========== -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title" id="modalTitle">Video Title</span>
+      <button class="modal-close" id="modalClose">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-video" id="modalVideoWrap"></div>
+    <!-- Resource links bar (below video, above nav) -->
+    <div class="modal-resources" id="modalResources">
+      <span class="modal-resources-label">Resources:</span>
+      <a class="modal-resource-btn" id="modalHelpLink" href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Help Center Article
+      </a>
+      <button class="modal-resource-btn tour-btn" id="modalTourBtn" onclick="return false;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        Try It — Interactive Tour
+      </button>
+    </div>
+    <div class="modal-footer">
+      <button class="modal-nav-btn" id="modalPrev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        Previous
+      </button>
+      <button class="modal-mark-btn" id="modalMark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M20 6 9 17l-5-5"/></svg>
+        <span id="modalMarkText">Mark as Complete</span>
+      </button>
+      <button class="modal-nav-btn" id="modalNext">
+        Next
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ========== TOAST ========== -->
+<div class="toast" id="toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+  <span id="toastMsg"></span>
+</div>
+
+<!-- ========== CONFETTI ========== -->
+<div class="confetti-container" id="confetti"></div>
+
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "njbci459",
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/njbci459';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+<script src="shared/progress.js"></script>
+<script src="shared/intercom.js"></script>
+<script src="shared/analytics.js"></script>
+<script src="hub/hub.js" defer></script>
+<script src="widget/widget.js" defer></script>
+</body>
+</html>

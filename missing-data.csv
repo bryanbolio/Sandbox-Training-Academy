@@ -1,0 +1,120 @@
+Type,Section,ID,Title,Field to Fill,Current Placeholder,Notes
+Video,Dashboard,v-dash-1,Welcome to DoorLoop,wistiaId,WISTIA_ID_welcome,Wistia video hash/ID
+Video,Dashboard,v-dash-1,Welcome to DoorLoop,duration,3:45,Verify or update actual duration
+Video,Dashboard,v-dash-2,Navigating the Dashboard,wistiaId,WISTIA_ID_dashboard,Wistia video hash/ID
+Video,Dashboard,v-dash-2,Navigating the Dashboard,duration,4:08,Verify or update actual duration
+Video,Dashboard,v-dash-2,Navigating the Dashboard,tourId,TOUR_ID_dashboard,Intercom product tour ID
+Video,Dashboard,v-dash-3,Account Setup & Settings,wistiaId,WISTIA_ID_settings,Wistia video hash/ID
+Video,Dashboard,v-dash-3,Account Setup & Settings,duration,5:12,Verify or update actual duration
+Video,Dashboard,v-dash-3,Account Setup & Settings,tourId,TOUR_ID_settings,Intercom product tour ID
+Tour,Dashboard,t-dash-1,Dashboard Quick Tour,intercomTourId,TOUR_ID_dashboard,Intercom product tour ID
+Tour,Dashboard,t-dash-2,Add & Arrange Widgets,intercomTourId,TOUR_ID_widgets,Intercom product tour ID
+Video,Properties & Units,v-prop-1,Adding Your First Property,wistiaId,WISTIA_ID_add_property,Wistia video hash/ID
+Video,Properties & Units,v-prop-1,Adding Your First Property,duration,6:20,Verify or update actual duration
+Video,Properties & Units,v-prop-1,Adding Your First Property,tourId,TOUR_ID_add_property,Intercom product tour ID
+Video,Properties & Units,v-prop-2,Managing Units & Amenities,wistiaId,WISTIA_ID_units,Wistia video hash/ID
+Video,Properties & Units,v-prop-2,Managing Units & Amenities,duration,5:55,Verify or update actual duration
+Video,Properties & Units,v-prop-2,Managing Units & Amenities,tourId,TOUR_ID_units,Intercom product tour ID
+Video,Properties & Units,v-prop-3,Property Photos & Documents,wistiaId,WISTIA_ID_photos,Wistia video hash/ID
+Video,Properties & Units,v-prop-3,Property Photos & Documents,duration,3:30,Verify or update actual duration
+Video,Properties & Units,v-prop-3,Property Photos & Documents,tourId,TOUR_ID_photos,Intercom product tour ID
+Video,Properties & Units,v-prop-4,Custom Fields & Tags,wistiaId,WISTIA_ID_tags,Wistia video hash/ID
+Video,Properties & Units,v-prop-4,Custom Fields & Tags,duration,4:15,Verify or update actual duration
+Video,Properties & Units,v-prop-4,Custom Fields & Tags,tourId,TOUR_ID_tags,Intercom product tour ID
+Tour,Properties & Units,t-prop-1,Property Setup Wizard,intercomTourId,TOUR_ID_add_property,Intercom product tour ID
+Tour,Properties & Units,t-prop-2,Unit Management Tour,intercomTourId,TOUR_ID_units,Intercom product tour ID
+Video,Tenants,v-ten-1,Adding Tenants,wistiaId,WISTIA_ID_add_tenant,Wistia video hash/ID
+Video,Tenants,v-ten-1,Adding Tenants,duration,4:40,Verify or update actual duration
+Video,Tenants,v-ten-1,Adding Tenants,tourId,TOUR_ID_add_tenant,Intercom product tour ID
+Video,Tenants,v-ten-2,Tenant Portal Overview,wistiaId,WISTIA_ID_portal,Wistia video hash/ID
+Video,Tenants,v-ten-2,Tenant Portal Overview,duration,4:50,Verify or update actual duration
+Video,Tenants,v-ten-2,Tenant Portal Overview,tourId,TOUR_ID_portal,Intercom product tour ID
+Video,Tenants,v-ten-3,Tenant Screening & Applications,wistiaId,WISTIA_ID_screening,Wistia video hash/ID
+Video,Tenants,v-ten-3,Tenant Screening & Applications,duration,6:10,Verify or update actual duration
+Video,Tenants,v-ten-3,Tenant Screening & Applications,tourId,TOUR_ID_screening,Intercom product tour ID
+Video,Tenants,v-ten-4,Importing Tenants in Bulk,wistiaId,WISTIA_ID_bulk_tenants,Wistia video hash/ID
+Video,Tenants,v-ten-4,Importing Tenants in Bulk,duration,3:45,Verify or update actual duration
+Tour,Tenants,t-ten-1,Add Your First Tenant,intercomTourId,TOUR_ID_add_tenant,Intercom product tour ID
+Tour,Tenants,t-ten-2,Tenant Profile Deep Dive,intercomTourId,TOUR_ID_portal,Intercom product tour ID
+Video,Leases,v-lease-1,Creating Leases,wistiaId,WISTIA_ID_create_lease,Wistia video hash/ID
+Video,Leases,v-lease-1,Creating Leases,duration,7:15,Verify or update actual duration
+Video,Leases,v-lease-1,Creating Leases,tourId,TOUR_ID_create_lease,Intercom product tour ID
+Video,Leases,v-lease-2,Lease Renewals & Terminations,wistiaId,WISTIA_ID_renewals,Wistia video hash/ID
+Video,Leases,v-lease-2,Lease Renewals & Terminations,duration,5:30,Verify or update actual duration
+Video,Leases,v-lease-2,Lease Renewals & Terminations,tourId,TOUR_ID_renewals,Intercom product tour ID
+Video,Leases,v-lease-3,Recurring Charges Setup,wistiaId,WISTIA_ID_charges,Wistia video hash/ID
+Video,Leases,v-lease-3,Recurring Charges Setup,duration,4:20,Verify or update actual duration
+Video,Leases,v-lease-3,Recurring Charges Setup,tourId,TOUR_ID_charges,Intercom product tour ID
+Tour,Leases,t-lease-1,Create Your First Lease,intercomTourId,TOUR_ID_create_lease,Intercom product tour ID
+Tour,Leases,t-lease-2,Lease Ledger Walkthrough,intercomTourId,TOUR_ID_ledger,Intercom product tour ID
+Video,Accounting,v-acc-1,Chart of Accounts Setup,wistiaId,WISTIA_ID_coa,Wistia video hash/ID
+Video,Accounting,v-acc-1,Chart of Accounts Setup,duration,5:10,Verify or update actual duration
+Video,Accounting,v-acc-1,Chart of Accounts Setup,tourId,TOUR_ID_coa,Intercom product tour ID
+Video,Accounting,v-acc-2,Online Rent Collection,wistiaId,WISTIA_ID_epay,Wistia video hash/ID
+Video,Accounting,v-acc-2,Online Rent Collection,duration,6:45,Verify or update actual duration
+Video,Accounting,v-acc-2,Online Rent Collection,tourId,TOUR_ID_epay,Intercom product tour ID
+Video,Accounting,v-acc-3,Recording Expenses,wistiaId,WISTIA_ID_expenses,Wistia video hash/ID
+Video,Accounting,v-acc-3,Recording Expenses,duration,4:25,Verify or update actual duration
+Video,Accounting,v-acc-3,Recording Expenses,tourId,TOUR_ID_expenses,Intercom product tour ID
+Video,Accounting,v-acc-4,Financial Reports,wistiaId,WISTIA_ID_reports,Wistia video hash/ID
+Video,Accounting,v-acc-4,Financial Reports,duration,5:50,Verify or update actual duration
+Video,Accounting,v-acc-4,Financial Reports,tourId,TOUR_ID_fin_reports,Intercom product tour ID
+Video,Accounting,v-acc-5,Bank Reconciliation,wistiaId,WISTIA_ID_recon,Wistia video hash/ID
+Video,Accounting,v-acc-5,Bank Reconciliation,duration,6:00,Verify or update actual duration
+Video,Accounting,v-acc-5,Bank Reconciliation,tourId,TOUR_ID_recon,Intercom product tour ID
+Tour,Accounting,t-acc-1,Accounting Dashboard Tour,intercomTourId,TOUR_ID_acc_dashboard,Intercom product tour ID
+Tour,Accounting,t-acc-2,Record Your First Expense,intercomTourId,TOUR_ID_expenses,Intercom product tour ID
+Video,Payments,v-pay-1,Setting Up Online Payments,wistiaId,WISTIA_ID_online_pay,Wistia video hash/ID
+Video,Payments,v-pay-1,Setting Up Online Payments,duration,6:45,Verify or update actual duration
+Video,Payments,v-pay-1,Setting Up Online Payments,tourId,TOUR_ID_online_pay,Intercom product tour ID
+Video,Payments,v-pay-2,Recording Manual Payments,wistiaId,WISTIA_ID_manual_pay,Wistia video hash/ID
+Video,Payments,v-pay-2,Recording Manual Payments,duration,3:10,Verify or update actual duration
+Video,Payments,v-pay-2,Recording Manual Payments,tourId,TOUR_ID_manual_pay,Intercom product tour ID
+Video,Payments,v-pay-3,Setting Up Online Payment Fees,wistiaId,WISTIA_ID_pay_fees,Wistia video hash/ID
+Video,Payments,v-pay-3,Setting Up Online Payment Fees,duration,4:00,Verify or update actual duration
+Video,Payments,v-pay-3,Setting Up Online Payment Fees,tourId,TOUR_ID_pay_fees,Intercom product tour ID
+Tour,Payments,t-pay-1,Payment Setup Wizard,intercomTourId,TOUR_ID_online_pay,Intercom product tour ID
+Video,Maintenance,v-maint-1,Maintenance Requests,wistiaId,WISTIA_ID_maint_req,Wistia video hash/ID
+Video,Maintenance,v-maint-1,Maintenance Requests,duration,4:35,Verify or update actual duration
+Video,Maintenance,v-maint-1,Maintenance Requests,tourId,TOUR_ID_maint_req,Intercom product tour ID
+Video,Maintenance,v-maint-2,Work Order Management,wistiaId,WISTIA_ID_work_orders,Wistia video hash/ID
+Video,Maintenance,v-maint-2,Work Order Management,duration,5:20,Verify or update actual duration
+Video,Maintenance,v-maint-2,Work Order Management,tourId,TOUR_ID_work_orders,Intercom product tour ID
+Video,Maintenance,v-maint-3,Vendor Management,wistiaId,WISTIA_ID_vendors,Wistia video hash/ID
+Video,Maintenance,v-maint-3,Vendor Management,duration,3:55,Verify or update actual duration
+Video,Maintenance,v-maint-3,Vendor Management,tourId,TOUR_ID_vendors,Intercom product tour ID
+Tour,Maintenance,t-maint-1,Maintenance Workflow Tour,intercomTourId,TOUR_ID_maint_workflow,Intercom product tour ID
+Video,Communications,v-comm-1,Email & SMS Messaging,wistiaId,WISTIA_ID_messaging,Wistia video hash/ID
+Video,Communications,v-comm-1,Email & SMS Messaging,duration,4:10,Verify or update actual duration
+Video,Communications,v-comm-1,Email & SMS Messaging,tourId,TOUR_ID_messaging,Intercom product tour ID
+Video,Communications,v-comm-2,Listing Vacancies,wistiaId,WISTIA_ID_listings,Wistia video hash/ID
+Video,Communications,v-comm-2,Listing Vacancies,duration,5:40,Verify or update actual duration
+Video,Communications,v-comm-2,Listing Vacancies,tourId,TOUR_ID_listings,Intercom product tour ID
+Video,Communications,v-comm-3,Rental Applications,wistiaId,WISTIA_ID_apps,Wistia video hash/ID
+Video,Communications,v-comm-3,Rental Applications,duration,6:15,Verify or update actual duration
+Video,Communications,v-comm-3,Rental Applications,tourId,TOUR_ID_apps,Intercom product tour ID
+Tour,Communications,t-comm-1,Send Your First Message,intercomTourId,TOUR_ID_messaging,Intercom product tour ID
+Tour,Communications,t-comm-2,Listing Setup Tour,intercomTourId,TOUR_ID_listings,Intercom product tour ID
+Video,Reports,v-rpt-1,Financial Reports Overview,wistiaId,WISTIA_ID_fin_reports,Wistia video hash/ID
+Video,Reports,v-rpt-1,Financial Reports Overview,duration,5:50,Verify or update actual duration
+Video,Reports,v-rpt-1,Financial Reports Overview,tourId,TOUR_ID_fin_reports,Intercom product tour ID
+Video,Reports,v-rpt-2,Custom Report Builder,wistiaId,WISTIA_ID_custom_reports,Wistia video hash/ID
+Video,Reports,v-rpt-2,Custom Report Builder,duration,4:30,Verify or update actual duration
+Video,Reports,v-rpt-2,Custom Report Builder,tourId,TOUR_ID_custom_reports,Intercom product tour ID
+Tour,Reports,t-rpt-1,Reports Dashboard Tour,intercomTourId,TOUR_ID_reports_dash,Intercom product tour ID
+Video,AI Assistant,v-ai-1,AI Assistant Overview,wistiaId,WISTIA_ID_ai_overview,Wistia video hash/ID
+Video,AI Assistant,v-ai-1,AI Assistant Overview,duration,5:00,Verify or update actual duration
+Video,AI Assistant,v-ai-1,AI Assistant Overview,tourId,TOUR_ID_ai_overview,Intercom product tour ID
+Video,AI Assistant,v-ai-2,AI for Bills & Expenses,wistiaId,WISTIA_ID_ai_bills,Wistia video hash/ID
+Video,AI Assistant,v-ai-2,AI for Bills & Expenses,duration,4:20,Verify or update actual duration
+Video,AI Assistant,v-ai-2,AI for Bills & Expenses,tourId,TOUR_ID_ai_bills,Intercom product tour ID
+Tour,AI Assistant,t-ai-1,AI Assistant Quick Start,intercomTourId,TOUR_ID_ai_start,Intercom product tour ID
+Video,Workflows,v-wf-1,Getting Started With Workflows,wistiaId,WISTIA_ID_workflows,Wistia video hash/ID
+Video,Workflows,v-wf-1,Getting Started With Workflows,duration,5:30,Verify or update actual duration
+Video,Workflows,v-wf-1,Getting Started With Workflows,tourId,TOUR_ID_workflows,Intercom product tour ID
+Tour,Workflows,t-wf-1,Build Your First Workflow,intercomTourId,TOUR_ID_workflows,Intercom product tour ID
+Video,Inspections,v-insp-1,AI Inspections Overview,wistiaId,WISTIA_ID_inspections,Wistia video hash/ID
+Video,Inspections,v-insp-1,AI Inspections Overview,duration,4:45,Verify or update actual duration
+Video,Inspections,v-insp-1,AI Inspections Overview,tourId,TOUR_ID_inspections,Intercom product tour ID
+Tour,Inspections,t-insp-1,Run Your First Inspection,intercomTourId,TOUR_ID_inspections,Intercom product tour ID
+Config,Global,N/A,Schedule Training URL,scheduleUrl,https://calendly.com/doorloop-training,Verify this Calendly link is correct
