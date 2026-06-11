@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project provides two customer-facing training components for DoorLoop, hosted on Deploybay at **YOUR-SANDBOX-DOMAIN-HERE**:
+This project provides two customer-facing training components for DoorLoop, hosted on Deploybay at **sandbox-training-academy.bbolio.apps.deploybay.doorloop.com**:
 
 1. **Training Hub** (`hub/`) — Full-page training academy with 9 modules, Wistia video embeds, progress tracking, Intercom product tours, and PostHog analytics.
 2. **Help Widget** (`widget/`) — Floating top-left widget embeddable on any page, with auto-detection of the current app page and relevant video recommendations.

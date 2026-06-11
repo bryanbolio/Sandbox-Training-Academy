@@ -2,7 +2,7 @@
 
 Interactive training system for DoorLoop customers. Includes a full-page **Training Hub** and an embeddable **Help Widget**, both with Wistia video progress tracking, Intercom integration, PostHog analytics, and real-time sync.
 
-**Live at**: YOUR-SANDBOX-DOMAIN-HERE (update once Deploybay URL is assigned)
+**Live at**: [sandbox-training-academy.bbolio.apps.deploybay.doorloop.com](https://sandbox-training-academy.bbolio.apps.deploybay.doorloop.com)
 
 ## Quick Start
 
@@ -50,17 +50,17 @@ All content lives in a single file: `data/training-data.js`. It's structured wit
 
 **For team members**: See `data/README.md` for copy-paste examples (add a video, link a tour, mark as NEW, add a section).
 
-**Workflow**: Edit `training-data.js` → push to GitHub → changes are live on YOUR-SANDBOX-DOMAIN-HERE. No build step.
+**Workflow**: Edit `training-data.js` → push to GitHub → changes are live on sandbox-training-academy.bbolio.apps.deploybay.doorloop.com. No build step.
 
 ## Embedding the Widget
 
 To add the Help Widget to the DoorLoop app, add **one line** to any page:
 
 ```html
-<script src="https://YOUR-SANDBOX-DOMAIN-HERE/widget/loader.js" defer></script>
+<script src="https://sandbox-training-academy.bbolio.apps.deploybay.doorloop.com/widget/loader.js" defer></script>
 ```
 
-That's it. The loader automatically fetches the CSS, training data, shared modules, and widget JS from `YOUR-SANDBOX-DOMAIN-HERE` in the correct order. No other tags, no initialization code.
+That's it. The loader automatically fetches the CSS, training data, shared modules, and widget JS from `sandbox-training-academy.bbolio.apps.deploybay.doorloop.com` in the correct order. No other tags, no initialization code.
 
 The widget auto-detects the current page via URL path matching (using `pageAliases` in the data file) and shows relevant training videos.
 
@@ -73,7 +73,7 @@ The widget auto-detects the current page via URL path matching (using `pageAlias
 3. `shared/progress.js` + `shared/intercom.js` + `shared/analytics.js` — loaded in parallel after data
 4. `widget/widget.js` — the widget itself, loaded last
 
-All files are pulled from `YOUR-SANDBOX-DOMAIN-HERE`. Updating content on the training site automatically updates every app page that embeds the widget — no app deploys needed.
+All files are pulled from `sandbox-training-academy.bbolio.apps.deploybay.doorloop.com`. Updating content on the training site automatically updates every app page that embeds the widget — no app deploys needed.
 
 ### JavaScript API (optional)
 

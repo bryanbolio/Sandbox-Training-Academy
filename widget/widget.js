@@ -268,7 +268,7 @@
     showPulse: true,
     zBase: 9999,
     helpCenterUrl: 'https://support.doorloop.com/en/',
-    academyUrl: 'https://YOUR-SANDBOX-DOMAIN-HERE',
+    academyUrl: 'https://sandbox-training-academy.bbolio.apps.deploybay.doorloop.com',
     scheduleUrl: 'https://calendly.com/doorloop-training',
   };
 

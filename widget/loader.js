@@ -4,10 +4,10 @@
  * ============================================================
  *  Add this single script tag to your app:
  *
- *    <script src="https://YOUR-SANDBOX-DOMAIN-HERE/widget/loader.js" defer></script>
+ *    <script src="https://sandbox-training-academy.bbolio.apps.deploybay.doorloop.com/widget/loader.js" defer></script>
  *
  *  That's it. This loader will fetch everything it needs from
- *  YOUR-SANDBOX-DOMAIN-HERE automatically:
+ *  sandbox-training-academy.bbolio.apps.deploybay.doorloop.com automatically:
  *    1. widget.css        (styles)
  *    2. training-data.js  (content)
  *    3. progress.js       (watch tracking)
