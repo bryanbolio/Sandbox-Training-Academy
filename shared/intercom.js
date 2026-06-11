@@ -45,7 +45,7 @@
   /**
    * Start an Intercom product tour with three-tier context handling.
    *
-   * Tier 1 — Standalone training hub (training.doorloop.com):
+   * Tier 1 — Standalone training hub (any domain other than app.doorloop.com):
    *   Open a new tab at https://app.doorloop.com{appPath}?product_tour_id={tourId}.
    *   app.doorloop.com reads the query param on load and fires the tour.
    *
@@ -65,7 +65,7 @@
   function startTour(tourId, appPath) {
     if (!tourId) return;
 
-    var isStandaloneHub = window.location.hostname === 'training.doorloop.com';
+    var isStandaloneHub = window.location.hostname !== 'app.doorloop.com';
 
     // Tier 1: Standalone training hub → new tab on app.doorloop.com
     if (isStandaloneHub) {

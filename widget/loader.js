@@ -4,10 +4,10 @@
  * ============================================================
  *  Add this single script tag to your app:
  *
- *    <script src="https://training.doorloop.com/widget/loader.js" defer></script>
+ *    <script src="https://YOUR-SANDBOX-DOMAIN-HERE/widget/loader.js" defer></script>
  *
  *  That's it. This loader will fetch everything it needs from
- *  training.doorloop.com automatically:
+ *  YOUR-SANDBOX-DOMAIN-HERE automatically:
  *    1. widget.css        (styles)
  *    2. training-data.js  (content)
  *    3. progress.js       (watch tracking)

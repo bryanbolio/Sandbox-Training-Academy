@@ -58,7 +58,7 @@ window.DOORLOOP_TRAINING_DATA = {
 
   "config": {
     "helpCenterUrl": "https://support.doorloop.com/en/",
-    "academyUrl":    "https://training.doorloop.com",
+    "academyUrl":    "https://YOUR-SANDBOX-DOMAIN-HERE",
     "whatsNewUrl":   "https://support.doorloop.com/en/collections/3851236-doorloop-updates",
     "scheduleUrl":   "https://calendly.com/doorloop-training",
     "storageKey":    "doorloop_training_progress"   // ⚠️ Changing this resets everyone's progress!

@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project provides two customer-facing training components for DoorLoop, hosted on GitHub Pages at **training.doorloop.com**:
+This project provides two customer-facing training components for DoorLoop, hosted on Deploybay at **YOUR-SANDBOX-DOMAIN-HERE**:
 
 1. **Training Hub** (`hub/`) — Full-page training academy with 9 modules, Wistia video embeds, progress tracking, Intercom product tours, and PostHog analytics.
 2. **Help Widget** (`widget/`) — Floating top-left widget embeddable on any page, with auto-detection of the current app page and relevant video recommendations.
@@ -63,7 +63,7 @@ Both `index.html` and `hub/index.html` load scripts in this exact order — **or
 
 ```html
 <!-- Head -->
-<script>/* App redirect — on training.doorloop.com only, sends visitors to app.doorloop.com/training-hub, preserving ?video=/?module= and hash */</script>
+<script>/* HTTPS redirect */</script>
 <script>/* HTTPS redirect */</script>
 <script>/* PostHog snippet */</script>
 <script src="data/training-data.js"></script>                      <!-- 1. Data -->
