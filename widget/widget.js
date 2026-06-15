@@ -298,7 +298,6 @@
         '<div class="dlhw-tcont dlhw-active" id="dlhw-tab-suggested"></div>' +
         '<div class="dlhw-tcont" id="dlhw-tab-modules"></div>' +
       '</div>' +
-      '<div class="dlhw-hc-fallback" id="dlhw-hc-fallback"><p>Can\'t find what you\'re looking for?</p><button class="dlhw-hc-btn" id="dlhw-hc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Search Help Center</button></div>' +
       '<div class="dlhw-player" id="dlhw-player">' +
         '<div class="dlhw-phdr"><button class="dlhw-pback" id="dlhw-pback"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button><span class="dlhw-ptitle" id="dlhw-ptitle"></span></div>' +
         '<div class="dlhw-pvid" id="dlhw-pvid"></div>' +
@@ -608,10 +607,6 @@
       }
     }
 
-    // Bottom fallback
-    if (els.hcFallback) {
-      els.hcFallback.classList.toggle('dlhw-no-results', q && visibleCount === 0);
-    }
 
     // Analytics: search performed (debounced via the input event)
     if (q && Analytics) Analytics.searchPerformed('widget', q, visibleCount);
@@ -776,8 +771,6 @@
       playerDesc: document.getElementById('dlhw-pdesc'),
       contactBtn: document.getElementById('dlhw-contact'),
       academyBtn: document.getElementById('dlhw-academy-btn'),
-      hcFallback: document.getElementById('dlhw-hc-fallback'),
-      hcBtn: document.getElementById('dlhw-hc-btn'),
       searchStatus: document.getElementById('dlhw-search-status'),
       body: document.getElementById('dlhw-body'),
     };
@@ -790,13 +783,6 @@
     els.overlay.addEventListener('click', toggle);
     els.searchInput.addEventListener('input', filterContent);
     els.contactBtn.addEventListener('click', function () { window._dlhwOpenIntercom(); });
-    els.hcBtn.addEventListener('click', function () {
-      var query = els.searchInput.value.trim();
-      if (Analytics) Analytics.helpCenterOpened('widget', query);
-      var url = 'https://support.doorloop.com/en/';
-      if (query) url += '?q=' + encodeURIComponent(query);
-      window.open(url, '_blank');
-    });
     document.getElementById('dlhw-pback').addEventListener('click', closePlayer);
     if (els.academyBtn) {
       els.academyBtn.addEventListener('click', function () {
